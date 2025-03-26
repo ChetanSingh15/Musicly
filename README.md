@@ -1,3 +1,13 @@
+## Musicly
+
+A Next.js based application with an awesome UI. The components for the ui are from Aceternity UI.
+
+The TechStack  Used are -
+NextJS 
+Typescript
+TailwindCSS
+Aceternity UI
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
