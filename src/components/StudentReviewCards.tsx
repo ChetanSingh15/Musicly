@@ -73,14 +73,15 @@ const musicAcademyTestimonials = [
 
 function MusicalAcademyTestimonials() {
   return (
-    <div className="h-[22rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex  flex-col items-center justify-center overflow-hidden" >
+    <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex  flex-col items-center justify-center overflow-hidden" >
         <div  className={cn(
           "absolute inset-0",
+          "flex flex-col items-center justify-center",
           "[background-size:20px_20px]",
           "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
           "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
         )}>
-            <h2 className="text-3xl font-bold text-center mt-8 mb-8 z-10">Hear Our Harmony: Voice of Success</h2>
+            <h2 className="text-3xl font-bold text-center  mb-8 z-10">Hear Our Harmony: Voice of Success</h2>
             <div>
                 <div>
                     <InfiniteMovingCards
