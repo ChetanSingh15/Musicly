@@ -2,7 +2,6 @@
 
 import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
-import { Meteors } from "@/components/ui/meteors";
 
 function MusicAcademyContactUs() {
   const [email, setEmail] = useState('');
@@ -55,8 +54,6 @@ function MusicAcademyContactUs() {
             Send Message
           </button>
         </form>
-        {/* <Meteors number={200} /> */} 
-        
       </div>
     </div>
   );
