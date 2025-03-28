@@ -32,8 +32,8 @@ export const WavyBackground = ({
     nt: number,
     i: number,
     x: number,
-    ctx: any,
-    canvas: any;
+    ctx: unknown,
+    canvas: unknown;
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const getSpeed = () => {
     switch (speed) {
@@ -48,7 +48,7 @@ export const WavyBackground = ({
 
   const init = () => {
     canvas = canvasRef.current;
-    ctx = canvas.getContext("2d");
+    ctx = canvas?.getContext("2d") ?? null;
     w = ctx.canvas.width = window.innerWidth;
     h = ctx.canvas.height = window.innerHeight;
     ctx.filter = `blur(${blur}px)`;
